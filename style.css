@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+
+}
+
 /* navbar */
 .navbar {
   overflow: hidden;
@@ -60,4 +66,26 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+/* botões  */
+
+.btn-container{
+    display: flex;
+    justify-content: right;
+    margin-top: 40px;
+    margin-right: 48px;
+}
+
+.btn-container button{
+    color: white;
+    width: 171px;
+    height: 51px;
+    border-radius: 8px;
+    background: #029456;
+}
+
+#add-btn{
+    margin-right: 2rem;
 }
