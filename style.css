@@ -14,6 +14,11 @@ input{
     border: none;
 }
 
+option{
+    color: #6D6D6D;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
 /* navbar */
 .navbar {
   overflow: hidden;
@@ -131,6 +136,9 @@ input{
     height: 51px;
     background-color: #E5E5E5;
     margin-right: 1rem;
+    color: #6D6D6D;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .inputs-container input{
