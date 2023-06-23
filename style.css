@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 button{
@@ -17,7 +19,6 @@ input{
 option{
     color: #6D6D6D;
     font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
 }
 /* navbar */
 .navbar {
@@ -126,7 +127,6 @@ option{
 
 .inputs-container{
     display: flex;
-    background-color: #2C2929;
     width: 100%;
     margin: 0 80px 31px 80px;
 }
@@ -138,7 +138,6 @@ option{
     margin-right: 1rem;
     color: #6D6D6D;
     font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .inputs-container input{
@@ -150,7 +149,6 @@ option{
 ::placeholder{
     color: #6D6D6D;
     font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .inputs-container button{
