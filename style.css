@@ -122,7 +122,7 @@ option{
     justify-content: center;
     align-items:flex-end;
     margin: 0 128px 0 128px;
-    background-color: #029456;
+    background-color: rgba(2, 148, 86, 0.80);
 }
 
 .inputs-container{

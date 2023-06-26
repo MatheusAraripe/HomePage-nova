@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 </head>
 <body>
 
@@ -20,10 +21,13 @@
 
 <!-- Conteúdo da página -->
 <div>
+    <!-- Botões  -->
     <div class="btn-container">
         <button id="add-btn">ADD CONTATO</button>
         <button>ENVIAR CONVITE</button>
     </div>
+
+    <!-- Baner -->
     <div class="baner-container">
         <div class="baner">
             <div class="inputs-container">
@@ -36,6 +40,34 @@
                 <button>GO</button>
             </div>
         </div>
+    </div>
+
+    <!-- Cards -->
+
+    <div class="cards-container">
+
+        <!-- Card -->
+        <div class="card">
+            <div class="profile-icon">
+
+            </div>
+            <div class="card-body">
+                <div class="card-head">
+                    <h2 class="user-name">Matheus Araripe</h2>
+                    <div class="card-icons">
+                        <i class="bi bi-pencil-fill"></i>
+                        <i class="bi bi-trash-fill"></i>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p class="user-unidade">{unidade}</p>
+                    <h4 class='user-ramal'>{ramal}</h4>
+                    <p class='user-tel'>{tel}</p>
+                    <p class='user-email'>{email}</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
