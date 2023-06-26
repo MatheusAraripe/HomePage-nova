@@ -158,3 +158,24 @@ option{
     color: white;
     background-color: #01321E;
 }
+
+/* Card */
+
+.cards-container{
+  background-color: beige;
+  margin: 32px 128px 0 128px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  width: 30%;
+  margin-bottom: 32px ;
+  border: 1px solid #999;
+  height: 147px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(1, 50, 30, 0.25);
+}
