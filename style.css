@@ -162,7 +162,6 @@ option{
 /* Card */
 
 .cards-container{
-  background-color: beige;
   margin: 32px 128px 0 128px;
   display: flex;
   flex-direction: row;
@@ -178,4 +177,70 @@ option{
   border-radius: 8px;
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(1, 50, 30, 0.25);
+  display: flex;
+  padding: 16px 8px 0px 16px;
+}
+
+.bi-person-circle{
+  font-size: 55px;
+}
+
+.card-body{
+  width: 100%;
+  margin-left: 16px;
+}
+
+.card-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-icons{
+  font-size: 20px;
+}
+
+.user-name{
+  color: #2C2929;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 700;
+}
+
+.card-icons i{
+  color:#01321E;
+}
+
+.card-content{
+  margin-top: 4px;
+}
+
+.user-unidade{
+  color: #07020D;
+  font-size: 12px;
+  font-family: Arial;
+  opacity: 0.4000000059604645;
+}
+
+.user-ramal{
+  margin-top: 8px;
+  color: #029456;
+  font-size: 16px;
+  font-family: Arial;
+}
+
+.user-tel{
+  color: #07020D;
+  margin-top: 8px;
+  font-size: 16px;
+  font-family: Arial;
+  opacity: 0.4000000059604645;
+}
+
+.user-email{
+  color: #07020D;
+  font-size: 16px;
+  font-family: Arial;
+  opacity: 0.4000000059604645;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
